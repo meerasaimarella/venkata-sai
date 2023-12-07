@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+/ var a=["odd","cat","dog","camel"]
+    let b=a.length-1
+    for(i=b;i>=0;i--){
+        if(a%2==0){
+         } 
+               b.push(a[i])
+    
+        
+     }console.log(a)
+
+
+
+     // var a=[1,2,3,4,5]
+// sum=0
+//     for(i=0;i<a.length;i++){
+//         sum=sum+a[i]
+//     }
+//     console.log(sum)
+
+// var a=[1,2,3,4,5]
+// sum=a.reduce(sai)
+// function sai(total,value,index,array){
+//     return total+value
+    
+// }
+// console.log(sum)
+
+// var a=[5,4,3,2,1]
+// for(i=0;i<a.length;)
+
+
+
+a=["odd","cat","dog","camel"]
+b=[]
+
+for(i=0;i<a.length;i++){
+    if(i%2!=0){
+            c=""
+            for(j=a[i].length-1;j>=0;j--){
+                c=c+a[i][j];
+            }
+             b.push(c)
+        }
+       
+     
+    else{
+       b.push(a[i])
+    }
+}
+console.log(b)
+
+
+
+
+
+
+
+//1--calculator function a+b
+        /*function hello(a,b) {
+            return a+b
+        }
+        console.log(hello(10,20));
+        console.log(hello(100,20));
+        console.log(hello(200,20));*/
+
+    //1--calculator function a*b  
+        /*function hello(a,b) {
+            return a*b
+        }
+        console.log(hello(10,20));
+        console.log(hello(100,20));
+        console.log(hello(200,20));*/
+
+    //1--calculator function a-b  
+        /*function hello(a,b) {
+            return a-b
+        }
+        console.log(hello(10,20));
+        console.log(hello(100,20));
+        console.log(hello(200,20));*/
+
+    //1--calculator function a%b 
+        /*function hello(a,b) {
+            return a%b
+        }
+        console.log(hello(10,20));
+        console.log(hello(100,20));
+        console.log(hello(200,20));*/
+
+ 
+    //2--Write a function that takes an integer minutes and converts it to seconds.
+       /* function hello(a) {
+            return a*60
+        }
+        console.log(hello(5));*/
+
+    //3-- Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+       /* function hello(a) {
+            return a+1
+        }
+        console.log(hello(10));*/
+
+    
+    //4--Create a function that takes the age in years and returns the age in days.
+        /*function hello(a) {
+            return a*365
+        }
+        console.log(hello(2));*/
+   
+
+    //5--sniCreate a function that takes voltage and current and returns the calculated power.
+        /*function hello(voltage,current) {
+            return power=voltage*current
+        }
+        console.log(hello(10,10));*/
+
+    //6--Write a function that returns the string "something" joined with a space " " and the given argument a.
+        /* function hello(a) {
+              return "something "+""+a
+         }
+         console.log(hello(10));
+         console.log(hello(20));
+         console.log(hello("leela"));*/
+
+    //7--Create a function that takes two arguments. Both arguments are integers, a and b. Return true if one of them is 10 or if their sum is 10.
+        /*function hello(a,b) {
+        if( a==10 || b==10 ||a+b==10) {
+            return true
+        }else{
+               return false
+            }
+        }
+         console.log(hello(10,0));*/
+
+//          8.	Create a function that takes two strings as arguments and returns either true or false depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+
+//          function sai(a,b){
+//     return a.length===b.length
+// }
+//     let c=sai("meera","sai")
+//     let d=sai("leela","sai")
+
+// console.log(c)
+// console.log(d)
+
+
+// 9.	Create a function that takes a name and returns a greeting in the form of a string. Don't use a normal function, use an arrow function.
+// var sai=(s)=>{
+//     return `hello ${s}`
+// }
+// console.log(sai("marella"))
+
+
+         //16--Create a function that takes two strings as arguments and returns the number of times the first string (the single character) is found in the second string.
+    //Example: charCount("c", "Chamber of secrets") ➞ 1
+      
+     /*count=0;
+     function v(char,str){
+     for(i=0;i<str.length;i++){
+        if(str[i]==char){
+            
+            count=count+1
+        }
+     }
+       console.log(count);
+      }
+     v("c","concern")*/
+
+    //17--Create a function that takes a string and returns the number (count) of vowels contained within it.
+    //Example:
+    //countVowels("Celebration") ➞ 5
+        /*var count=0;
+       function hello(f){
+        for(i=0;i<f.length;i++){
+        if(f[i]=="a"||f[i]=="e"||f[i]=="i"||f[i]=="o"||f[i]=="u"){
+        count=count+1;
+          }
+        }
+     console.log(count);
+     }
+     hello("meerasai")*/
+
+
+         //18--Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.
+    //Example:
+    //reverseCase("Happy Birthday") ➞ "hAPPY bIRTHDAY"
+
+        /* var a="Happy Birthday"
+        var temp=""
+        for(i=0;i<a.length;i++) {
+        if(a[i]==a[i].toUpperCase()) {
+        temp+=a[i].toLowerCase();
+        }
+        else{
+        temp+=a[i].toUpperCase();
+         }
+        }
+         console.log(temp);*/
+
+    //19--  Take one integer n, loop till n and pass each value to a function, create a function that takes one integer parameter, and multiply with 2 in every integer.	
+	// Input:      n=5
+	// Output:   2 4  6 8 10
+    // Explanation:  Loop start with 1 go till 5 bcoz n=5
+	// 		1 x 2 =2, 2 x 2=4, 3 x 2=6 …..etc
+
+     /* function n(a){
+     for(i=1;i<=a;i++){
+        console.log(i*2);
+      }
+     }
+     n(5)*/
+
+
+    
+    //20-- Create Function that will take one parameter and return type of the data.		
+    // 			Input:       500
+    // 			Output:     Integer
+    // 			Input:       Coding
+    // 			Output:    String
+
+      /* function s(b){
+       console.log(typeof(b));
+     }
+     s("5")*/
+
+    //21--Program to find greatest of three numbers(using ternery operator).
+     /*a=[1,3,6,2,7]
+      b=0
+      for(i=0;i<a.length;i++) {
+        if(b<=a[i]) {
+            b=a[i];
+        }
+      }
+      console.log(b);*/
+
+    //22--factorial calculator
+      /* var a=5;
+      function fun(a) {
+        var t=1;
+        for(i=1;i<=5;i++)
+        {
+            t=t*i;
+        }
+           return t;
+       }
+        console.log(fun(a));*/
+
+    //     t=t*i;
+    //     }
+    //        return t;
+    //    }
+    //     console.log(fun(a));
+
+    //24--pattern inversion for loop
+      /*var c=1;
+       for(i=1;i<=5;i++){
+       var j=" ";
+       for(var a=1;a<=c;a++){
+       j=j+i+" ";
+       console.log(i);
+       }
+       c++
+     }*/
+
+    //25--. C Program to Calculate the Power of a Number(using loop only).
+    // Input: n=5, p=3
+    // Output: 5 ^ 3 = 125
+    // Explanation: 5 x 5 x 5 = 125
+
+      /*n=5;
+      p=3;
+      for(i=0;i<=p;i++){
+     f=n**i
+     }
+     console.log(f)*/
+
+
+     
+// 29. Program to find a missing number
+
+
+//      var a=[1,2,4,5,7]
+// for(i=0;i<a.length-1;i++){ 
+//     if(a[i+1]!=a[i]+1){
+//         console.log(a[i]+1)
+//     }
+// }
+
+
+         //30--Write a function that counts the number of vowels and consonants in a given string.
+      /*var a="amarnadh"
+      var vowels=0; 
+      var cons=0;
+      function fun(){
+      for(i=0 ; i<a.length; i++){
+        if(a[i]=="a" || a[i]=="e" || a[i]=="i" ||a[i]=="o" || a[i]=="u"){
+            vowels=vowels+1;
+     }
+     else{
+      cons=cons+1;
+      }
+     }
+     console.log("no of vowels"+vowels);
+     console.log("no of consonets"+cons);
+     }
+     fun();*/
+
+    
+    //32--reverse count down 20-0 for loop
+       /* for(a=20;a>=1;a--){
+            console.log(a);
+        }*/
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
